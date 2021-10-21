@@ -2,7 +2,7 @@
 
 ## Introduction  
 This is the implementation of paper : [Show Me the Whole World: Towards Entire Item Space Exploration for Interactive Personalized Recommendations](https://arxiv.org/abs/2110.09905)  
-This is the reference code for **HCB** and **pHCB**, which is based on three different base bandit algorithms. 
+The reference codes for **HCB** and **pHCB**, which are based on three different base bandit algorithms. 
 1. LinUCB from [A contextual-bandit approach to personalized news article recommendation](https://dl.acm.org/doi/10.1145/1772690.1772758)  
 2. epsilon-Greedy [This strategy, with random exploration on an  epsilon fraction of the traffic and greedy exploitation on the rest]
 3. Thompson Sampling from [Thompson Sampling for Contextual Bandits with Linear Payoffs
@@ -31,7 +31,7 @@ Download the HierarchicyBandit.zip and unzip.  You will get five folders, they a
 **Parameters:**  
 The config.py file contains:
 ```
-dataset: is the dataset used in experiment, it can be 'MIND' or 'TaoBao';  
+dataset: is the dataset used in the experiment, it can be 'MIND' or 'TaoBao';  
 T: the number of rounds of each bandit algorithm;  
 k: the number of items recommended to user at each round, default is 1;  
 activate_num: the hyper-papamter p for pHCB;  
