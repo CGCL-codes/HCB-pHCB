@@ -1,7 +1,7 @@
 # HierarchicyBandit   
 
 ## Introduction  
-This is the implementation of paper : [Show Me the Whole World: Towards Entire Item Space Exploration for Interactive Personalized Recommendations](https://arxiv.org/abs/2110.09905)  
+This is the implementation of WSDM 2022 paper : [Show Me the Whole World: Towards Entire Item Space Exploration for Interactive Personalized Recommendations](https://arxiv.org/abs/2110.09905)  
 The reference codes for **HCB** and **pHCB**, which are based on three different base bandit algorithms. 
 1. LinUCB from [A contextual-bandit approach to personalized news article recommendation](https://dl.acm.org/doi/10.1145/1772690.1772758)  
 2. epsilon-Greedy [This strategy, with random exploration on an  epsilon fraction of the traffic and greedy exploitation on the rest]
