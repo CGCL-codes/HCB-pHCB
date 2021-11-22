@@ -11,7 +11,7 @@ The reference codes for **HCB** and **pHCB**, which are based on three different
 ## Files in the folder
 
 - `data/`
-  - `MIND(https://drive.google.com/file/d/1CBgLI9qgRaKo6ZpAMq1fc3MPjpQtDdkP/view?usp=sharing)/` and `TaoBao(https://drive.google.com/file/d/1uWPBIHl_dkr089kCwrn0kWXFLxBR88ek/view?usp=sharing)/`
+  - `MIND/` and `TaoBao/`
      - `item_info.pkl`: processed item file, including item id, item feature and embeddings for simulator;
      - `user_info.pkl`: processed user file, including user id, and embeddings for simulator;
      - `item_info_ts.pkl`:  processed item file for Thompson sampling;
@@ -24,6 +24,7 @@ The reference codes for **HCB** and **pHCB**, which are based on three different
 2. For thompson sampling, we provide another 16 dimensonal feature vectors to run the experiments, since it can be faster . The original feature vectors are also work with the algorithms.
 3. the user_info.pkl and item_info.pkl is formated as dictionary type. 
 4. The implementation of ConUCB is released at [ConUCB](https://github.com/Xiaoyinggit/ConUCB). HMAB and ICTRUCB are specical case of CB-Category and CB-Leaf.
+5. Datasets can be downloads from : [MIND](https://drive.google.com/file/d/1CBgLI9qgRaKo6ZpAMq1fc3MPjpQtDdkP/view?usp=sharing) and [TaoBao](https://drive.google.com/file/d/1uWPBIHl_dkr089kCwrn0kWXFLxBR88ek/view?usp=sharing)
 
 ## Usage:  
 Download the HierarchicyBandit.zip and unzip.  You will get five folders, they are `algs/`, `algsE/`, `algsTS/`, `data/`, and `logger/`.   
