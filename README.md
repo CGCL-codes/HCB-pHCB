@@ -11,7 +11,7 @@ The reference codes for **HCB** and **pHCB**, which are based on three different
 ## Files in the folder
 
 - `data/`
-  - `MIND/` and `TaoBao/`
+  - `MIND(https://drive.google.com/file/d/1CBgLI9qgRaKo6ZpAMq1fc3MPjpQtDdkP/view?usp=sharing)/` and `TaoBao(https://drive.google.com/file/d/1uWPBIHl_dkr089kCwrn0kWXFLxBR88ek/view?usp=sharing)/`
      - `item_info.pkl`: processed item file, including item id, item feature and embeddings for simulator;
      - `user_info.pkl`: processed user file, including user id, and embeddings for simulator;
      - `item_info_ts.pkl`:  processed item file for Thompson sampling;
