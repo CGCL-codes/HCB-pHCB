@@ -62,3 +62,29 @@ $ python simulator_multi_process.py
 $ cd algsTS
 $ python simulator_multi_process.py
 ``` 
+
+
+## Citation
+If you use HCB-pHCB in your research, please cite us as follows:
+```
+@inproceedings{10.1145/3488560.3498459,
+author = {Song, Yu and Sun, Shuai and Lian, Jianxun and Huang, Hong and Li, Yu and Jin, Hai and Xie, Xing},
+title = {Show Me the Whole World: Towards Entire Item Space Exploration for Interactive Personalized Recommendations},
+year = {2022},
+isbn = {9781450391320},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3488560.3498459},
+doi = {10.1145/3488560.3498459},
+abstract = {User interest exploration is an important and challenging topic in recommender systems, which alleviates the closed-loop effects between recommendation models and user-item interactions.Contextual bandit (CB) algorithms strive to make a good trade-off between exploration and exploitation so that users' potential interests have chances to expose. However, classical CB algorithms can only be applied to a small, sampled item set (usually hundreds), which forces the typical applications in recommender systems limited to candidate post-ranking, homepage top item ranking, ad creative selection, or online model selection (A/B test). In this paper, we introduce two simple but effective hierarchical CB algorithms to make a classical CB model (such as LinUCB and Thompson Sampling) capable to explore users' interest in the entire item space without limiting to a small item set. We first construct a hierarchy item tree via a bottom-up clustering algorithm to organize items in a coarse-to-fine manner. Then we propose ahierarchical CB (HCB) algorithm to explore users' interest on the hierarchy tree. HCB takes the exploration problem as a series of decision-making processes, where the goal is to find a path from the root to a leaf node, and the feedback will be back-propagated to all the nodes in the path. We further propose aprogressive hierarchical CB (pHCB) algorithm, which progressively extends visible nodes which reach a confidence level for exploration, to avoid misleading actions on upper-level nodes in the sequential decision-making process. Extensive experiments on two public recommendation datasets demonstrate the effectiveness and flexibility of our methods.},
+booktitle = {Proceedings of the Fifteenth ACM International Conference on Web Search and Data Mining},
+pages = {947–956},
+numpages = {10},
+keywords = {recommender system, contextual bandit, interest exploration},
+location = {Virtual Event, AZ, USA},
+series = {WSDM '22}
+}
+
+
+```
+
